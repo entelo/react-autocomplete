@@ -123,7 +123,7 @@ var Autocomplete = function (_React$Component) {
       if (this.isOpen() && this.state.highlightedIndex !== null) {
         var itemNode = this.refs['item-' + this.state.highlightedIndex];
         var menuNode = this.refs.menu;
-        if (itemNode && menuNoe) {
+        if (itemNode && menuNode) {
           scrollIntoView(findDOMNode(itemNode), findDOMNode(menuNode), { onlyScrollIfNeeded: true });
         }
       }
